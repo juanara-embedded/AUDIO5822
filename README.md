@@ -25,24 +25,7 @@ The repository contains the complete hardware design, PCB manufacturing files, 3
 - 4-layer PCB design
 - Compact PCB size: **80.01 mm × 56.007 mm**
 
-## Hardware
 
-The AUDIO5822 PCB is designed with emphasis on power distribution, short high-current paths, signal integrity, and separation between the digital control interface and the power amplification section.
-
-The layout follows the design recommendations provided for the TAS5822, with particular attention to operation in MONO (PBTL) mode.
-
-### Main Components
-
-| Reference | Component | Function |
-|---|---|---|
-| U8 | TAS5822MDCPR | Class-D audio amplifier |
-| AP74700QW6-7 | Reverse-polarity protection device | Input protection |
-| L | 10 µH | Output filter inductor |
-| C | 680 nF | Output filter capacitor |
-| C18 | 470 µF | PVDD bulk decoupling |
-| C19 | 47 µF | PVDD decoupling |
-| Bootstrap capacitor | 470 nF | TAS5822 bootstrap network |
-| R1 | 15 kΩ | Configuration / bias network |
 
 ## System Interfaces
 
