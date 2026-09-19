@@ -90,21 +90,21 @@ AUDIO5822/
 │
 ├── documentation/
 │   └── datasheet/
-│       └── AUDIO5822_Datasheet.pdf
+│       └── DATASHEET_AUDIO5822.pdf
 │
 ├── hardware/
 │   ├── schematic/
-│   │   ├── AUDIO5822_Schematic.json
-│   │   └── AUDIO5822_Schematic.pdf
+│   │   ├── SCH_AUDIO5822.json
+│   │   └── SCH_AUDIO5822.pdf
 │   │
 │   ├── pcb/
-│   │   ├── AUDIO5822_PCB.json  
-│   │   └── AUDIO5822.obj
+│   │   ├── PCB_AUDIO5822.json  
+│   │   └── OBJ_AUDIO5822.obj
 │   │
 │   └── manufacturing/
-│       ├── AUDIO5822_Gerbers.zip
-│       ├── AUDIO5822_BOM.xlsx
-│       └── AUDIO5822_PickAndPlace.csv
+│       ├── GERBER_AUDIO5822.zip
+│       ├── BOM_AUDIO5822.csv
+│       └── Pick_and_place_AUDIO5822.csv
 │
 └── firmware/
 ```
@@ -115,8 +115,8 @@ AUDIO5822/
 
 The complete electrical schematic is provided in both source and PDF formats.
 
-* `AUDIO5822_Schematic.json` — EasyEDA schematic source file
-* `AUDIO5822_Schematic.pdf` — PDF schematic documentation
+* `SCH_AUDIO5822.json` — EasyEDA schematic source file
+* `SCH_AUDIO5822_.pdf` — PDF schematic documentation
 
 Location:
 
@@ -128,9 +128,8 @@ hardware/schematic/
 
 The complete PCB design is provided in source, PDF, and 3D model formats.
 
-* `AUDIO5822_PCB.json` — EasyEDA PCB source file
-* `AUDIO5822_PCB.pdf` — PCB documentation
-* `AUDIO5822.obj` — 3D model
+* `PCB_AUDIO5822.json` — EasyEDA PCB source file
+* `OBJ_AUDIO5822.obj` — 3D model
 
 Location:
 
@@ -142,9 +141,9 @@ hardware/pcb/
 
 The manufacturing directory contains the files required for PCB fabrication and assembly.
 
-* `AUDIO5822_Gerbers.zip` — Gerber manufacturing files
-* `AUDIO5822_BOM.xlsx` — Bill of Materials
-* `AUDIO5822_PickAndPlace.csv` — Pick and Place file
+* `GERBER_AUDIO5822.zip` — Gerber manufacturing files
+* `BOM_AUDIO5822.csv` — Bill of Materials
+* `Pick_and_place_AUDIO5822.csv` — Pick and Place file
 
 Location:
 
@@ -173,7 +172,7 @@ The technical documentation provides detailed information about the AUDIO5822 ha
 The complete technical documentation is available in the project datasheet:
 
 **AUDIO5822 Datasheet:**
-`documentation/datasheet/AUDIO5822_Datasheet.pdf`
+`documentation/datasheet/DATASHEET_AUDIO5822.pdf`
 
 ## Project Status
 
